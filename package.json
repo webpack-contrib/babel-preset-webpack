@@ -1,13 +1,13 @@
 {
   "name": "babel-preset-webpack",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Provides Webpacks's es2016 Babel preset",
   "main": "index.js",
   "scripts": {
     "prebuild": "npm run clean:dist",
     "build": "cross-env NODE_ENV=production babel -s true demo-app/extract-text-babel -d dist",
     "clean:dist": "shx rm -rf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.22.0",
