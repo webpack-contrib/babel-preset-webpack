@@ -24,13 +24,22 @@ npm i -D babel-preset-webpack
 
 <h2 align="center">Usage</h2>
 
+### Via `.babelrc`
 
-<h2 align="center">Babel Setup</h2>
+**.babelrc**
 
-```js
-
-
+```json
+{
+  "presets": ["webpack"]
+}
 ```
+
+### Via CLI
+
+```sh
+$ babel script.js --presets webpack 
+```
+
 
 <h2 align="center">Maintainers</h2>
 
