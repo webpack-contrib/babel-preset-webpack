@@ -13,7 +13,7 @@
       src="https://worldvectorlogo.com/logos/webpack.svg">
   </a>
   <h1>Webpack Babel Preset</h1>
-  <p>Provides Webpacks's es2016 Babel preset.<p>
+  <p>Provides Webpacks's es2015 Babel preset.<p>
 </div>
 
 <h2 align="center">Install</h2>
