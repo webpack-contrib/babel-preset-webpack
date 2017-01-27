@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-webpack",
   "version": "1.0.0-alpha.1",
-  "description": "Provides Webpacks's es2016 Babel preset",
+  "description": "Provides Webpacks's es2015 Babel preset",
   "main": "index.js",
   "scripts": {
     "prebuild": "npm run clean:dist",
