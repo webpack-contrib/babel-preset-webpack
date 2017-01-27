@@ -40,6 +40,21 @@ npm i -D babel-preset-webpack
 $ babel script.js --presets webpack 
 ```
 
+<h2 align="center">Comparison Demo</h2>
+
+The repo includes a copy of the `extract-text-plugin` for the purposes of vetting transpiled output to assist in the selection of ECMA features for this preset.
+
+`./demo-app/extract-text-orig`: Original application code without modification.
+
+`./demo-app/extract-text-babel`: es6 features added ( this is a wip ) without making significant changes to code structure.
+
+### Run the comparison build
+
+```sh
+$ npm run build
+```
+
+_Babel will output transpiled code & sourcemaps to `./dist`_
 
 <h2 align="center">Maintainers</h2>
 
