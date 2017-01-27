@@ -25,10 +25,9 @@ npm i -D babel-preset-webpack
 <h2 align="center">Usage</h2>
 
 
-<h2 align="center">eslint setup</h2>
+<h2 align="center">Babel Setup</h2>
 
 ```js
-// Add to your .eslintrc
 
 
 ```
