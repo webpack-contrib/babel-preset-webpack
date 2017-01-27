@@ -4,6 +4,9 @@
   "description": "Provides Webpacks's es2016 Babel preset",
   "main": "index.js",
   "scripts": {
+    "prebuild": "npm run clean:dist",
+    "build": "cross-env NODE_ENV=production babel -s true demo-app/extract-text-babel -d dist",
+    "clean:dist": "shx rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -45,5 +48,12 @@
   "bugs": {
     "url": "https://github.com/webpack-contrib/babel-preset-webpack/issues"
   },
-  "homepage": "https://github.com/webpack-contrib/babel-preset-webpack#readme"
+  "homepage": "https://github.com/webpack-contrib/babel-preset-webpack#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-register": "^6.22.0",
+    "cross-env": "^3.1.4",
+    "shx": "^0.2.2",
+    "standard-version": "^4.0.0"
+  }
 }
