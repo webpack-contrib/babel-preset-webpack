@@ -1,9 +1,9 @@
 {
   "name": "babel-preset-webpack",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "description": "Provides Webpacks's es2015 Babel preset",
   "main": "index.js",
-  "files":[
+  "files": [
     "index.js"
   ],
   "scripts": {
@@ -52,9 +52,6 @@
     "babel",
     "es2016",
     "javascript"
-  ],
-  "files": [
-    "index.js"
   ],
   "author": "Joshua Wiens (https://twitter.com/@d3viant0ne)",
   "license": "MIT",
