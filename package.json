@@ -3,6 +3,9 @@
   "version": "1.0.0-alpha.1",
   "description": "Provides Webpacks's es2015 Babel preset",
   "main": "index.js",
+  "files":[
+    "index.js"
+  ],
   "scripts": {
     "prebuild": "npm run clean:dist",
     "build": "cross-env NODE_ENV=production babel -s true demo-app/extract-text-babel -d dist",
